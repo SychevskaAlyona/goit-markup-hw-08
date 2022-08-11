@@ -1,0 +1,44 @@
+.agreement-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    gap: 7px;
+    cursor: pointer;
+}
+
+.agreement-form__text {
+    user-select: none;
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-cl)
+}
+
+.agreement-icon__check {
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agreement-form__check {
+    &:checked+.agreement-form__icon {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:checked+.agreement-form__icon .agreement-icon__uncheck {
+        opacity: 0;
+    }
+
+    &:checked+.agreement-form__icon .agreement-icon__check {
+        opacity: 1;
+    }
+}
+
+.agreement__link {
+    color: var(--accent-cl);
+    text-underline-position: under;
+}

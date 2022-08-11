@@ -1,0 +1,49 @@
+%btn {
+    min-width: 200px;
+    padding: 10px 30px;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: #ffffff;
+    background-color: var(--accent-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+        cursor: pointer;
+    }
+}
+
+.hero__btn {
+    @extend %btn;
+}
+
+.footer-form__btn {
+   @extend %btn;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+   
+}
+
+.modal-form__btn {
+    @extend %btn;
+
+    display: flex;
+    align-items: center;
+    padding: 10px 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}

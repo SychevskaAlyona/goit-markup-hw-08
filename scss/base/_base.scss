@@ -1,0 +1,17 @@
+body {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-txt-cl);
+    background-color: var(--main-bcg-cl);
+    letter-spacing: 0.03em;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+img {
+    display: block;
+}
+
