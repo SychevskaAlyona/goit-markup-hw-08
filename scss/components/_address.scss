@@ -1,6 +1,13 @@
 .address {
-    display: inline-block;
-    font-style: normal;
+    display: block;
+    font-style: normal;    
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+    text-align: left;
+    margin-bottom: 0;
+    }
 }
 
 .address__main {
@@ -11,6 +18,7 @@
 
 .address__list {
     display: inline-block;
+    
 }
 
 .address__item {
