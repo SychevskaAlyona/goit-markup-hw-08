@@ -97,21 +97,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-1-354.jpg 354w,
-                      ./images\portfolio\img-1-370.jpg 370w,
-                      ./images\portfolio\img-1-450.jpg 450w,
-                      ./images\portfolio\img-1-708.jpg 708w,
-                      ./images\portfolio\img-1-740.jpg 740w,
-                      ./images\portfolio\img-1-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
-                    src="./images\portfolio\img-1-354.jpg"
-                    alt="Ноутбук с открытой страницей сайта"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-1@1x_L.jpg 1x,
+                        ./images/portfolio/img-1@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-1@1x_m.jpg 1x,
+                        ./images/portfolio/img-1@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-1@1x_s.jpg 1x,
+                        ./images/portfolio/img-1@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-1@1x_s.jpg"
+                      alt="Ноутбук с открытой страницей сайта"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -129,21 +139,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-2-354.jpg 354w,
-                      ./images\portfolio\img-2-370.jpg 370w,
-                      ./images\portfolio\img-2-450.jpg 450w,
-                      ./images\portfolio\img-2-708.jpg 708w,
-                      ./images\portfolio\img-2-740.jpg 740w,
-                      ./images\portfolio\img-2-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw "
-                    src="./images\portfolio\img-2-354.jpg"
-                    alt="Баскетболисты с мячом"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-2@1x_L.jpg 1x,
+                        ./images/portfolio/img-2@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-2@1x_m.jpg 1x,
+                        ./images/portfolio/img-2@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-2@1x_s.jpg 1x,
+                        ./images/portfolio/img-2@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-2@1x_s.jpg"
+                      alt="Баскетбол"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -163,21 +183,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-3-354.jpg 354w,
-                      ./images\portfolio\img-3-370.jpg 370w,
-                      ./images\portfolio\img-3-450.jpg 450w,
-                      ./images/portfolio/img-3-708.jpg 708w,
-                      ./images\portfolio\img-3-740.jpg 740w,
-                      ./images\portfolio\img-3-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw"
-                    src="./images\portfolio\img-3-354.jpg"
-                    alt="Логотип рыбного ресторана"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-3@1x_L.jpg 1x,
+                        ./images/portfolio/img-3@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-3@1x_m.jpg 1x,
+                        ./images/portfolio/img-3@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-3@1x_s.jpg 1x,
+                        ./images/portfolio/img-3@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-3@1x_s.jpg"
+                      alt="Лого рыбного ресторана"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -195,21 +225,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-4-354.jpg 354w,
-                      ./images\portfolio\img-4-370.jpg 370w,
-                      ./images\portfolio\img-4-450.jpg 450w,
-                      ./images\portfolio\img-4-708.jpg 708w,
-                      ./images\portfolio\img-4-740.jpg 740w,
-                      ./images\portfolio\img-4-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw "
-                    src="./images\portfolio\img-4-354.jpg"
-                    alt="Наушники"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-4@1x_L.jpg 1x,
+                        ./images/portfolio/img-4@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-4@1x_m.jpg 1x,
+                        ./images/portfolio/img-4@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-4@1x_s.jpg 1x,
+                        ./images/portfolio/img-4@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-4@1x_s.jpg"
+                      alt="Наушники"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -227,21 +267,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-5-354.jpg 354w,
-                      ./images\portfolio\img-5-370.jpg 370w,
-                      ./images\portfolio\img-5-450.jpg 450w,
-                      ./images\portfolio\img-5-708.jpg 708w,
-                      ./images\portfolio\img-5-740.jpg 740w,
-                      ./images\portfolio\img-5-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw "
-                    src="./images\portfolio\img-5-354.jpg"
-                    alt="Две коробки"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-5@1x_L.jpg 1x,
+                        ./images/portfolio/img-5@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-5@1x_m.jpg 1x,
+                        ./images/portfolio/img-5@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-5@1x_s.jpg 1x,
+                        ./images/portfolio/img-5@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-5@1x_s.jpg"
+                      alt="Коробки"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -259,21 +309,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-6-354.jpg 354w,
-                      ./images\portfolio\img-6-370.jpg 370w,
-                      ./images\portfolio\img-6-450.jpg 450w,
-                      ./images\portfolio\img-6-708.jpg 708w,
-                      ./images\portfolio\img-6-740.jpg 740w,
-                      ./images\portfolio\img-6-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw "
-                    src="./images\portfolio\img-6-354.jpg"
-                    alt="Монитор компьютера"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-6@1x_L.jpg 1x,
+                        ./images/portfolio/img-6@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-6@1x_m.jpg 1x,
+                        ./images/portfolio/img-6@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-6@1x_s.jpg 1x,
+                        ./images/portfolio/img-6@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-6@1x_s.jpg"
+                      alt="Монитор"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -291,21 +351,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-7-354.jpg 354w,
-                      ./images\portfolio\img-7-370.jpg 370w,
-                      ./images\portfolio\img-7-450.jpg 450w,
-                      ./images\portfolio\img-7-708.jpg 708w,
-                      ./images\portfolio\img-7-740.jpg 740w,
-                      ./images\portfolio\img-7-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw "
-                    src="./images\portfolio\img-7-354.jpg"
-                    alt="Книга"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-7@1x_L.jpg 1x,
+                        ./images/portfolio/img-7@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-7@1x_m.jpg 1x,
+                        ./images/portfolio/img-7@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-7@1x_s.jpg 1x,
+                        ./images/portfolio/img-7@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-7@1x_s.jpg"
+                      alt="Журнал"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -323,21 +393,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-8-354.jpg 354w,
-                      ./images\portfolio\img-8-370.jpg 370w,
-                      ./images\portfolio\img-8-450.jpg 450w,
-                      ./images\portfolio\img-8-708.jpg 708w,
-                      ./images\portfolio\img-8-740.jpg 740w,
-                      ./images\portfolio\img-8-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw "
-                    src="./images\portfolio\img-8-354.jpg"
-                    alt="Бирка"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-8@1x_L.jpg 1x,
+                        ./images/portfolio/img-8@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-8@1x_m.jpg 1x,
+                        ./images/portfolio/img-8@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-8@1x_s.jpg 1x,
+                        ./images/portfolio/img-8@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-8@1x_s.jpg"
+                      alt="Бирка"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -355,21 +435,31 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link link" rel="noopener noreferrer" target="_blank">
                 <div class="thumb">
-                  <img
-                    class="portfolio__img"
-                    srcset="
-                      ./images\portfolio\img-9-354.jpg 354w,
-                      ./images\portfolio\img-9-370.jpg 370w,
-                      ./images\portfolio\img-9-450.jpg 450w,
-                      ./images\portfolio\img-9-708.jpg 708w,
-                      ./images\portfolio\img-9-740.jpg 740w,
-                      ./images\portfolio\img-9-900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 370px,(min-width: 768px) 354px, 100vw "
-                    src="./images\portfolio\img-9-354.jpg"
-                    alt="Человек за ноутбуком"
-                    width="450"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/img-9@1x_L.jpg 1x,
+                        ./images/portfolio/img-9@2x_L.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/portfolio/img-9@1x_m.jpg 1x,
+                        ./images/portfolio/img-9@2x_m.jpg 2x
+                      " />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/portfolio/img-9@1x_s.jpg 1x,
+                        ./images/portfolio/img-9@2x_s.jpg 2x
+                      " />
+                    <img
+                      class="portfolio__img"
+                      src="./images/portfolio/img-9@1x_s.jpg"
+                      alt="Ноутбук"
+                      width="450"
+                  /></picture>
                   <div class="overlay">
                     <p class="overlay__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
